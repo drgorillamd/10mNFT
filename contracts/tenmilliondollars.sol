@@ -11,8 +11,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract tenmilliondollars is ERC721Enumerable, Ownable {
 
-    uint256 public constant price = 800 * 10**18; // CHANGE ME 800 Matic
-    uint256 public constant maxMint = 10_000; // CHANGE ME 10_000
+    uint256 public constant price = 1 * 10**18; // CHANGE ME 800 Matic
+    uint256 public constant maxMint = 10; // CHANGE ME 10_000
     bool public active = true;
     string _contractURI = "https://tenmilliondollars.art/wp-content/uploads/sites/2/nft/metadata/tiago_nft_contract_metadata.json";
 
